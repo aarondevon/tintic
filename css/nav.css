@@ -1,0 +1,161 @@
+/*************************
+GENERAL
+*************************/
+p {
+  padding: 0;
+  margin:0;
+}
+
+/*************************
+HEADING
+*************************/
+.fixed {
+	position:absolute;
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 1000px;
+	min-width: 1000px;
+	left: 50px;
+	right: 50px;
+	}
+#topbar {
+	border-top: 3px #F88738 solid;
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+#bottombar {
+	border-bottom: solid 3px #F88738;
+	margin-top:70px;
+	width: 100%;
+  margin-bottom: 15px;
+}
+
+#logo {
+  margin: 0;
+  padding: 5px 10px ;
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+/*************************
+NAVIGATION
+*************************/
+
+#nav{
+	border-top: solid #fff;
+	border-bottom: solid #fff;
+	list-style: none;
+	margin: 45px 0 0 0;
+	padding: 0;
+	text-align: center;
+      }
+#nav li{
+  position:relative;
+  display:inline;
+      }
+#nav a{
+  font-family: 'Varela', sans-serif;
+  font-weight:100;
+  font-size: 22px;
+  border-right: solid 1px #000;
+ display:inline-block;
+ padding:10px;
+      }
+#nav ul{
+   position:absolute;
+   /*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+   left:-9999px;
+   margin:0;
+   padding:0;
+   text-align:left;
+      }
+      
+#nav ul li{
+   display:block;
+}
+#nav li:hover ul{
+   left:0;
+}
+#nav li:hover a {
+text-decoration: underline;
+background-color: #C8C8C5;
+}
+#nav li:hover ul a{
+   text-decoration:none;
+   background:#fff;
+}
+#nav li:hover ul a:hover{
+   text-decoration:underline;
+   background:#C8C8C5;
+}
+#nav ul a{
+   white-space:nowrap;
+   display:block;
+   border-bottom:1px solid #000;
+}
+a{
+   color:#000;
+   text-decoration:none;
+   font-weight:bold;
+}
+a:hover{
+   text-decoration:underline;
+   background:#;
+}
+#none a {
+  border-right: none;
+}
+/*************************
+BODY
+*************************/
+.fixed p {
+  padding: 0px 100px 10px 100px;
+
+}
+
+.heading {
+	color:#565656;
+	padding-left: 100px;
+	}
+	
+.link {
+	color: #F88738;
+	}
+
+.clamp {
+	
+	width:700px;
+	
+	}
+	
+/*************************
+FORM
+*************************/
+
+#emailform {
+	 margin:15px 100px; padding:15px; 
+	}
+
+/*************************
+FOOTER
+*************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #888;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+.mail {
+	width: 20px;
+  height: 20px;
+  margin: 0 5px;
+	}
